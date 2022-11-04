@@ -11,6 +11,9 @@
 
 //CODE HERE
 
+const gitDefinition = "A system that allows you to send and save changes or updates to your code."
+
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +21,9 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "A database that stores your code in the cloud so that if you make changes to the code on your local terminal, they will be recorded and kept track of online."
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +33,8 @@
 
 //CODE HERE
 
+const gitInitDefinition = "Adds .git folder to your project. This initializes a git repository."
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +43,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = "This command copies an existing repository to a new location. For example, it would clone my code from this terminal onto GitHub if I were to use it here."
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +52,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = "This command provides information on the repository about which files are being tracked and the changes being made."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +66,10 @@
 
 //CODE HERE
 
+const gitAddDefinition = "This command begins tracking all the files in the folder."
+
+const gitAddCode = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +81,10 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "This command takes a snapshot of the changes made in a repository."
+
+const gitCommitCode = "git commit -m 'initial commit'"
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +93,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "This command pushes the repository from your terminal to GitHub. All changes made after this command will need to be pushed again if you want the changes to show up in GitHub."
