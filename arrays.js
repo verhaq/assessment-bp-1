@@ -57,4 +57,4 @@ for (let i=0; i<bigOrSmallArray.length; i++) {
   }
 }
 
-//console.log(answers)
+console.log(answers)

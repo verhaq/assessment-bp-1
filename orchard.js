@@ -50,8 +50,33 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+let sumFuji = 0
+for (let i = 0; i<fujiAcres.length; i++) {
+    sumFuji += fujiAcres[i]
+}
 
+//console.log(sumFuji)
 
+let sumGala = 0
+for (let i = 0; i<galaAcres.length; i++) {
+    sumGala += galaAcres[i]
+}
+
+//console.log(sumGala)
+
+let sumPink = 0
+for (let i = 0; i<pinkAcres.length; i++) {
+    sumPink += pinkAcres[i]
+}
+
+//console.log(sumPink)
+
+var totalAcres = sumFuji + sumGala + sumPink
+
+console.log(totalAcres)
+
+// COMMENTS: I looked up how to get the sum of an array of numbers, then I calculated the sum of each array and at the end
+// I added all those arrays together to get the total number. I do not know how to add multiple arrays to each other.
 
 
 
@@ -69,7 +94,19 @@ const pinkPrice = .55
 
 // CODE HERE
 
+// const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
+// const galaAcres = [5, 2, 4, 3, 6, 2, 4]
+// const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 
+// const fujiPrice = .89 
+// const galaPrice = .64
+// const pinkPrice = .55
+
+var averageDailyAcres = totalAcres / 7
+
+console.log(averageDailyAcres)
+
+//COMMENTS: I divided the total number of acres by 7 days a week in order to get the average number of acres per day.
 
 
 
@@ -107,6 +144,12 @@ let days = 0
 
 // CODE HERE
 
+// while (acresLeft > 0) {
+//     acresLeft - averageDailyAcres
+// days += 1
+// }
+
+//console.log(days)
 
 
 // PROBLEM 4
@@ -139,10 +182,23 @@ let days = 0
 // let galaTons =
 // let pinkTons =
 
+// const fujiAcres = [2, 3, 3, 2, 2, 2, 1]
+// const galaAcres = [5, 2, 4, 3, 6, 2, 4]
+// const pinkAcres = [1, 5, 4, 2, 1, 5, 4]
 
+// const fujiPrice = .89 
+// const galaPrice = .64
+// const pinkPrice = .55
+let tonFuji = 6.5
+for (let i = 0; i < fujiAcres.length; i++) {
+    tonFuji *= fujiAcres[i]
+    break
+}
 
-
-
+console.log(tonFuji)
+// I know I'm supposed to multiply 6.5 by each number in the arrays to get individual values for a new array. But I don't know how to do that. 
+// I want the for loop to keep going after the break 
+// for each value, but I don't know how to do that either. I feel really dumb. 
 
 // PROBLEM 5
 
@@ -193,7 +249,11 @@ let days = 0
 // let galaProfit =
 // let pinkProfit =
 
+// const fujiPrice = .89 
+// const galaPrice = .64
+// const pinkPrice = .55
 
+//COMMENTS: for this i would multiply each apple variety's price by the total pounds per variety. 
 
 
 
@@ -208,4 +268,9 @@ let days = 0
     Log `totalProfit` to the console.
 */
 
-// CODE HERE
+// CODE HERE//
+
+// COMMENTS: If i had values for these numbers these are the formulas i would use.
+
+var totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log(totalProfit)
